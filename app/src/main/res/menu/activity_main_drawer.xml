@@ -58,17 +58,4 @@
 >
 
 
-    <item android:title="Otros"
-        android:icon="@drawable/ic_notifications_active_black_24dp"
-
-        >
-        <menu>
-            <item
-                android:id="@+id/nav_vendimia"
-                android:title="Vendimia" />
-
-        </menu>
-
-    </item>
-
 </menu>
