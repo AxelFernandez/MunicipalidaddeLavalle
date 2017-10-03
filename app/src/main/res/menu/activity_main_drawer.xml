@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_tweb_info"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="Telefonos Utiles" />
+    <item
+        android:id="@+id/nav_colect"
+        android:icon="@drawable/ic_directions_bus_black_24dp"
+        android:title="Horarios de Colectivos">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_not_nov"
+        android:icon="@drawable/ic_notifications_active_black_24dp"
+        android:title="Novedades" />
+
+    <item android:title="Departamento"
+        android:icon="@drawable/ic_history_black_24dp"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_desp_history"
+                android:title="Historia" />
+            <item
+                android:id="@+id/nav_dep_eco"
+                android:title="Ubicacion Geografica" />
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Turismo"
+        android:icon="@drawable/ic_map_black_24dp"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_tur_interes"
+                android:title="Sitios de Interes" />
+            <item
+                android:id="@+id/nav_tur_aloj"
+                android:title="Alojamiento" />
+            <item
+                android:id="@+id/nav_tur_gastr"
+                android:title="Gastronomia" />
+            <item
+                android:id="@+id/nav_tur_infor"
+                android:title="Contacto e Informes" />
+
+
+        </menu>
+
+    </item>
+
+>
+
+
+    <item android:title="Otros"
+        android:icon="@drawable/ic_notifications_active_black_24dp"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_vendimia"
+                android:title="Vendimia" />
+
+        </menu>
+
+    </item>
+
+</menu>

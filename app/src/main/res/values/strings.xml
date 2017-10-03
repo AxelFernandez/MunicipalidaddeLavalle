@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Municipalidad de Lavalle</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--  Historia-->
+    <string name="creac_hist">
+        \t El 18 de enero de 1859, el gobernador de la provincia don Cornelio
+        Moyano firmó el decreto- ley por el que creaba el departamento de Tulumaya.
+        en honor a la denominación que los indígenas del lugar daban a la región. \n
+
+\t En 1889 se cambió su nombre por el de Lavalle, en homenaje al guerrero de la independencia. \n
+ \t El departamento celebra su aniversario haciéndolo coincidir con el natalicio de su patrono civil,
+        el General Juan Galo Lavalle, ocurrido el 20 de octubre de 1797. \n \n \n \n  </string>
+    <string name="origenes_hist">
+      \t El departamento de Lavalle integró originariamente la amplia zona de Huanacache, en cuya
+        parte Norte estaban ubicadas las extensas lagunas del mismo nombre, formadas por los desagües
+        del río San Juan. En las proximidades de estas lagunas se encontraban radicados importantes
+        y numerosos núcleos de indígenas huarpes, quienes se dedicaban a la pesca, confección de canoas
+        y canastos con totora y junquillo, así como a otras pequeñas actividades de artesanía. De
+        esta zona, se traía el pescado, especialmente truchas, para el consumo de la población de Mendoza. \n \n
+
+\t Los indígenas llamaban “tulumaya” o “tule - mayu”, a los territorios que hoy abarcan el
+        departamento de Lavalle. Antes de la llegada de los españoles, existían numerosas tolderías
+        , destacándose la de Jocoli, residencia del cacique Tabalqué. \n \n
+
+\t Los conquistadores españoles tomaron posesión de las tierras del arroyo Tulumaya. El capitán don
+        Martín Pizarro de Córdoba, recibió en encomienda las comarcas que pertenecían al cacique
+        Guaquinchay. El capitán general de Chile, don Domingo Ortiz de Rosas, tomó con entusiasmo
+        la creación de nuevos pueblos en la región de Cuyo, especialmente en las lagunas de Huanacache.
+        Nombró como representante suyo a don Gregorio Blanco Laysequilla, quien en 1754 redactó un código
+        donde se establecían  las normas para crear nuevas poblaciones, como así también el repartimiento
+        de solares y tierras con destino al cultivo y crianza de hacienda. \n \n
+
+\t Se supone que la primera “doctrina” de Huanacache data de 1601. En 1749 el misionero franciscano
+        Marcos Videla había logrado formar en las lagunas un pueblo de indios. Esta comunidad, constituye
+        el nacimiento de las primeras poblaciones como Asunción, San Miguel y Rosario. En 1788 todas
+        ellas fueron atacadas por los indígenas, pero fueron rechazados y sometidos. \n \n
+
+\t A fines del siglo XVIII, se establecieron en esta región, algunos de los prisioneros portugueses,
+        tomados por Pedro de Ceballos en su campaña de Santa Catalina. Los lusitanos se dedicaron a
+        la pesca en las lagunas del Rosario y Huanacache. Según el historiador Isidro J. Maza, “esta
+        actividad dio lugar al trazado de una senda o caminos que unían las lagunas con la ciudad de
+        Mendoza, por esta razón, dicha calle pasó a denominarse “Los Pescadores”. \n \n
+
+\t En 1850 durante el gobierno de Alejo Mallea, la región fue anexada al departamento de La paz.
+        Pero cinco años más tarde, el gobernador Pedro Pascual Segura la separó, construyendo la
+        Subdelagacía del Rosario. \n \n
+    </string>
+
+
+    <!-- Ubicacion Geografica-->
+    <string-array name="nombres">
+        <item>El Chilcal</item>
+        <item>El Plumero</item>
+        <item>El Vergel</item>
+        <item>Gustavo André</item>
+        <item>Jocolí</item>
+        <item>Jocolí Viejo</item>
+        <item>La Bajada</item>
+        <item>La Palmera</item>
+        <item>La Pega</item>
+        <item>Lagunas del Rosario</item>
+        <item>Las Violetas</item>
+        <item>El Paramillo</item>
+        <item>San Francisco</item>
+        <item>San Miguel de Los Sauces</item>
+        <item>Tres de Mayo</item>
+        <item>Alto Del Olvido</item>
+        <item>Villa Tulumaya</item>
+        <item>El Carmen</item>
+        <item>Colonia Italia</item>
+        <item>La Colmena</item>
+        <item>Oscar Mendoza</item>
+    </string-array>
+    <string-array name="descripcion">
+
+        <item>Este distrito debe el nombre a la abundante existencia de plantas de Chilca, vegetación silvestre que crece en la zona. El Chilcal, es un sector que ocupa un lugar especial en lo que hace a la caracterÍstica productiva de Lavalle. Sin lugar a dudas en mérito al tesón de su gente dedicada a la agricultura.</item>
+        <item>Es el nombre que se le dio a una propiedad rural que era centro de actividades agrícolas y ganaderas en el departamento de Lavalle, y la origen de la aplicación de su nombre esta relacionado con “Plumerillo” osea lugar donde existen o existían plantas de cortaderas que dan un penacho blanco.</item>
+        <item>Los primeros colonos lo llamaron El Vergel, que significa "huerto con diversidad de flores y árboles frutales". Así se convirtió en un lugar propicio donde se instalaron importantes emprendimientos agrícolas. Este bello distrito que antiguamente destacaba por sus prósperos sembradíos y las frondosas arboledas está resurgiendo con la fuerza y perseverancia que sus primeros pobladores supieron transmitir a las nuevas generaciones.</item>
+        <item>Este distrito es una de las zonas del departamento que se caracteriza por su importante producción vitivinícola. Y en homenaje a los viñateros es que se realiza el Festival del Cosechador, evento que año a año reúne un numeroso público fanático de la música folclórica FESTIVAL DEL COSECHADOR 19 y 20 de Marzo</item>
+        <item>En el extremo de Lavalle, al noroeste del departamento está Jocolí, portal de acceso a nuestra provincia, pueblo de gente pujante que apuesta a diario por arraigarse en ese lugar. De acuerdo a la toponimia, el nombre Jocolí podría hacer referencia al vocablo aborigen Nogolí, que significa algarrobo, ya que en esta zona existían grandes algarrobales.</item>
+        <item>Este distrito situado a sólo unos 7 kilómetros al Oeste de la Villa cabecera, un lugar paulatino crecimiento, tanto por la producción de sus fincas, la instalación de centros de comercialización característicos productos de la zona, como ajos, melones, tomates y plantaciones olivícolas</item>
+        <item>Este pueblo está asentado a la vera del río Mendoza, probablemente de allí provenga su denominación haciendo referencia a la "bajada del río". Esta zona, netamente rural, refleja en sus cultivos las manos laboriosas de hombres y mujeres que sol a sol trabajan por el crecimiento de este lugar.</item>
+        <item>Su historia proviene de una planta de palmera que plantada en una propiedad rural, la misma servia para que la gente identificara el lugar y se guiara por aquella planta, es por esto que este distrito es reconocido y hoy lleva el nombre de La Palmera.</item>
+        <item>Este distrito es uno de los portales de ingreso, ubicado al suroeste del departamento. Un pueblo de hombres y mujeres laboriosos que han forjado su futuro en este zona de viñedos y plantaciones hortícolas. Según los pobladores más antiguos cuentan, que el camino que atraviesa este distrito, la actual ruta provincial n° 24, era una huella que cuando llovía era intransitable, por ese motivo las carretelas que quedaban pegadas en el fango y sus pasajeros debía esperar que se secara el terreno para continuar con el viaje.</item>
+        <item>Capilla del Rosario, lleva dicho nombre desde las épocas en que los primeros doctrineros se establecieron en las Lagunas que pasaron a llamarse también del Rosario, en razón que la Capilla allí establecida fue dedicada a la veneración de Nuestra Señora del Rosario.</item>
+        <item>En este sector del Departamento, según relatos de los lugareños más antiguos, hacia fines del siglo XIX existía en la zona una propiedad rural donde la dueña de casa sembraba amplios jardines con plantas de violetas. Este hecho es el que identifica el lugar como Las Violetas.</item>
+        <item>Este distrito formó parte hasta mediados de la década de los ’80 del distrito La Holanda, un sector de grandes extensiones de tierras pertenecientes a colonos holandeses, que por iniciativa de Cipriano Ibañez, primer intendente del departamento de Lavalle, de fines de siglo 19, los atrajo para que se afincaran en esas tierras. Cuando la propia comunidad decide separarse de La Holanda, nombran a este nuevo distrito: Paramillo, tal como se llama la estación del ferrocarril Belgrano que existe en este lugar.</item>
+        <item>En este sector del departamento se asentó una colonia de inmigrantes alemanes, liderados por Don Van Waveren, decididos a darle empuje a esta tierra. Hoy sus habitantes no abandonan este legado y reflejo de ello son sus extensas plantaciones de viñas y de productos hortícolas, como así también los emprendiminetos ganaderos que allí se instalan. Es también el límite Norte entre el oásis productivo y el Secano.</item>
+        <item>En el extremo noreste de Lavalle está enclavado este amplio distrito del secano que alberga a cientos de familias de crianceros y artesanos en lana y junquillo, verdadero ejemplo de hombres de lucha y tesón que cada día vencen al tiempo. Este pueblo también celebra uno de los festejos religiosos más antiguos del departamento, como las honras a San Miguel Arcángel en septiembre de cada año.</item>
+        <item>Distrito ubicado en la ruta 36 de nuestro departamento. Los orígenes de este paraje cuenta que Don Elias Villanueva, afincado de este lugar organizaba la fiesta de su cumpleaños, quien convocaban a cientos de invitados de toda la provincia es por eso que este lugar era conocido por el “vamos para el Tres de Mayo”.</item>
+        <item>Un lugar especial en la historia del Departamento representa este paraje. De acuerdo a la memoria oral de antiguos pobladores cuentan que el nombre de este lugar fue dado porque el servicio de transporte de pasajeros que existía por aquellos años, fines del siglo 19, también llamada La Mensajería olvidaba ingresar a este poblado.</item>
+        <item>Expresan los antecedentes de la toponimia lavallina, que la ciudad cabecera recibió dicho nombre de la voz quichua Tule Mayu. El primer término significa cortadera o junquillo y el segundo río, lo cual puede estar asociado al Arroyo Tulumaya que atraviesa este distrito. En este curso de agua que ha perdurado abundan las plantas de cortadera. Este distrito también alberga válido potencial en producción, y en lo cultural no deja de ser un atractivo. Tiene sitios colmados de historia, como el Algarrobo Histórico, donde originalmente se asentó el centro de actividades de la Villa. Otro lugar de importancia es la antigua casona de la tradicional familia Montenegro, que hoy cobija el museo, donde se encuentra una diversidad de expresiones del pasado colonial del departamento.</item>
+        <item>En este distrito, ubicado al noreste de Costa de Araujo, se popularizaron las honras a la patrona religiosa de la zona la Virgen del Carmen. Según cuentan los vecinos más antiguos se realizaba una procesión en honor a la virgen, la cual era portada en una carretilla por la calle principal. Hasta este lugar convergían devotos para participar de las celebraciones de El Carmen, término que se afianzó para nombrar lo que se convertiría en ese distrito.</item>
+        <item>A principios de la creación de nuestro departamento llevaba el nombre de Colonia Italiana, debido a los primeros pobladores que habitaron esa zona, donde llegaron a trabajar y cultivar esa tierra.</item>
+        <item>Era el nombre de unas tierras que fueron de propiedad de don Juan Isidro Maza, que fuera gobernador de Mendoza hasta 1842 y a quien se le conocía como el "Caballero de Mendoza". A estos extensos campos los antiguos lugareños le solían llamar los "campos Macinos" en razón al apellido de sus propietarios y al ser estos sub divididos entre sus herederos luego Doña Remedios Maza, que contrajo matrimonio con José Atahulfo Hoyos y en cuarta generación heredaron doña Magdalena de Hoyos Maza de Mathus y el Doctor Isidro Daniel Maza, este último que fuera diputado nacional por Mendoza y se encontraba casado con doña Enriqueta Granel.</item>
+        <item>Este paraje que se ubica en el extremo noroeste de la zona irrigada del departamento debe su nombre a uno de los fundadores del lugar, Don Oscar Mendoza. Un afincado que se asentó en la zona, transformándose en propietario de grandes parcelas de tierras, iniciando así en este lugar la actividad agrícola.</item>
+
+
+    </string-array>
+
+    <string-array name="ContactoInformes">
+
+        <item>Dirección de Cultura, Turismo y Deporte</item>
+        <item>\t Domicilio: Dr. Moreno y Calle Fleming - Villa Tulumaya - Casa de la Historía y la Cultura \n\t
+
+Teléfono: 0261-4941147 \n\t
+
+E-mail: lavalle_turismo@hotmail.com, turismoyculturalavalle@yahoo.com.ar</item>
+    </string-array>
+
+
+    <string-array name="Tel_nombre">
+        <item>Policia Villa Tulumaya</item>
+        <item>Sub-Comisaria Costa de Araujo</item>
+        <item>Sub-Comisaria El Porvenir (Jocoli)</item>
+        <item>Hospital Sicoli</item>
+        <item>Bomberos</item>
+    </string-array>
+
+
+    <string-array name="Tel_telefono">
+        <item>4941272 - 4941033</item>
+        <item>2623-494027</item>
+        <item>4905013</item>
+        <item>4941065</item>
+        <item>4941300</item>
+    </string-array>
+
+
+</resources>
