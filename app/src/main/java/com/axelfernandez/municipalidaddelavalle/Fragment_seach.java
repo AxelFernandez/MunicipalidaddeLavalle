@@ -2,11 +2,11 @@ package com.axelfernandez.municipalidaddelavalle;
 
 
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,21 +22,22 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
-
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Fragment_Noticies extends Fragment {
-Context context = getContext();
-     ProgressDialog progressDialog;
-View v;
+public class Fragment_seach extends Fragment {
+    ProgressDialog progressDialog;
+    View v;
     HttpURLConnection connection;
     List<Noticias_Entity> data = new ArrayList<>();
-    public Fragment_Noticies() {
-        //new MiTarea().execute();
+
+    public Fragment_seach() {
         // Required empty public constructor
     }
 
@@ -44,13 +45,17 @@ View v;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         v = inflater.inflate(R.layout.fragment_fragment__noticies, container, false);
-       View nc = inflater.inflate(R.layout.no_conexion, container,false);
+        View nc = inflater.inflate(R.layout.no_conexion, container,false);
         progressDialog= new ProgressDialog(getContext());
-        progressDialog.setMessage("Cargando");
+        progressDialog.setMessage("Buscando");
         progressDialog.show();
         progressDialog.setCancelable(false);
+
+        Bundle datab= getArguments();
+
+        final String query=datab.getString("Query");
+        Log.e("q", query);
 
 
 
@@ -65,7 +70,7 @@ View v;
 
 
                 try {
-                    URL url1 = new URL("http://lavallemendoza.gob.ar/public/webservice/noticias");
+                    URL url1 = new URL("http://lavallemendoza.gob.ar/public/webservice/noticias-todas");
 
                     connection = (HttpURLConnection) url1.openConnection();
                     connection.connect();
@@ -80,16 +85,24 @@ View v;
                         String result = buffer.toString();
                         JSONArray jsonArray = new JSONArray(result);
                         data = new ArrayList<>();
+                        JSONObject jsonObjects = jsonArray.getJSONObject(0);
+                        String ids = jsonObjects.getString("id");
 
-                        for (int i = 0; i < 19; i++) {
+                        for (int i = 0; i < Integer.valueOf(ids); i++) {
                             Noticias_Entity dataModel = new Noticias_Entity();
                             JSONObject jsonObject = jsonArray.getJSONObject(i);
                             String name = jsonObject.getString("titulo");
                             String id = jsonObject.getString("id");
                             String copete = jsonObject.getString("copete");
-                            String fecha = jsonObject.getString("fecha");
                             String imagen = jsonObject.getString("imagennota");
-                            //  int ids = Integer.parseInt(id);
+                            String fecha= jsonObject.getString("fecha");
+
+                            String names = limpiarAcentos(name);
+
+                            Pattern regex = Pattern.compile("\\b" + Pattern.quote(query) + "\\b", Pattern.CASE_INSENSITIVE);
+                            Matcher match = regex.matcher(names);
+
+                            if (match.find()) {
                             dataModel.setId(id);
                             dataModel.setTitulo(name);
                             dataModel.setCopete(copete);
@@ -98,7 +111,7 @@ View v;
 
                             //String desciption = jsonObject.getString("format");
 
-                            data.add(dataModel);
+                            data.add(dataModel);}
 
 
                         }
@@ -131,26 +144,25 @@ View v;
             }
 
 
-          }).start();
+        }).start();
 
 
 
 
         return v;
-
-
-}
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
+    public static String limpiarAcentos(String cadena) {
+        String limpio =null;
+        if (cadena !=null) {
+            String valor = cadena;
+            valor = valor.toUpperCase();
+            // Normalizar texto para eliminar acentos, dieresis, cedillas y tildes
+            limpio = Normalizer.normalize(valor, Normalizer.Form.NFD);
+            // Quitar caracteres no ASCII excepto la enie, interrogacion que abre, exclamacion que abre, grados, U con dieresis.
+            limpio = limpio.replaceAll("[^\\p{ASCII}(N\u0303)(n\u0303)(\u00A1)(\u00BF)(\u00B0)(U\u0308)(u\u0308)]", "");
+            // Regresar a la forma compuesta, para poder comparar la enie con la tabla de valores
+            limpio = Normalizer.normalize(limpio, Normalizer.Form.NFC);
+        }
+        return limpio;
+    }
+}
