@@ -54,6 +54,9 @@ Context context;
                 Intent intent = new Intent(context, webView_Noticias.class);
                 intent.putExtra("id",list.get(position).getId());
                 intent.putExtra("title",list.get(position).getTitulo());
+                intent.putExtra("copete", list.get(position).getCopete());
+                intent.putExtra("imagen", list.get(position).getUrlimagen());
+
                 context.startActivity(intent);
             }
         });
